@@ -1,0 +1,62 @@
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 140vh;
+  width: 100%;
+  font-family: Bree Serif;
+}
+
+.AppHeading {
+  color: #1e293b;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.inputSearchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+  height: 40px;
+  border: 2px solid #7b8794;
+  border-radius: 8px;
+}
+
+.inputSearch {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  font-weight: 600;
+  width: 100%;
+  background-color: transparent;
+}
+
+.searchImg {
+  width: 45px;
+  height: 30px;
+  padding-left: 2px;
+  padding-right: 10px;
+}
+
+.unOrderedContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.unorderedAppStoreList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 100vh;
+  margin-top: 0px;
+}
